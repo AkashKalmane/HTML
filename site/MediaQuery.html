@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Queries Media</title>
+	<style>
+		h1 {
+			background-color: hotpink;
+		}
+		p {
+			background-color: darkmagenta;
+			width: 300px;
+			height: 150px;
+			border: 2px soild yellow;
+		}
+		@media (min-width: 1200px) {
+			p {
+				width: 70%;
+		      }
+	    }
+	    @media (min-width:992px) and (max-width:1199px) {
+	    	p {
+	    		width: 50%;
+	    		
+	    	}
+	    }
+	</style>
+</head>
+<body>
+<h1>The Main Content</h1>
+<p id="p1"></p>
+<p id="p2"></p>
+</body>
+</html>
